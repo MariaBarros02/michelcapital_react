@@ -57,7 +57,7 @@ const Property = () => {
             <Breadcrumb.Item href="/" icon={HiHome}>
               Home
             </Breadcrumb.Item>
-            <Breadcrumb.Item href="properties">Properties</Breadcrumb.Item>
+            <Breadcrumb.Item href="/properties">Properties</Breadcrumb.Item>
             <Breadcrumb.Item>{titulo}</Breadcrumb.Item>
           </Breadcrumb>
 
