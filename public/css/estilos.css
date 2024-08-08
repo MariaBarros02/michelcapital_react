@@ -1,0 +1,79 @@
+/*GLOBAL*/
+
+:root{
+    --colorPrincipal: #C8B99E;
+    --fuentePrincipal: "Montserrat",arial; 
+}
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+body{
+    font-family: var(--fuentePrincipal);
+    overflow-x: hidden;
+}
+img{
+    width: 100%;
+}
+.img--centrada{
+    object-position: center;
+}
+
+.text-dorado{
+    color: var(--colorPrincipal);
+}
+
+.bg-dorado{
+    background-color: var(--colorPrincipal);
+}
+
+/*Navegacion*/
+
+.navegacion__link{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    display: block;
+}
+.navegacion__link:hover{
+    background-color: var(--colorPrincipal);
+    color: #000;
+}
+
+@media (min-width: 1024px) {
+    .navegacion__link{
+        width: auto;
+        padding: 1.8rem 2rem ;
+    }
+}
+
+
+/*HERO*/
+
+.hero{
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*BANNER*/
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_bg--1{
+    background-image: url("../images/image_6.jpg");
+    background-position: center;
+}
+.banner_bg--2{
+    background-image: url("../images/image_9.jpg");
+    background-position: center;
+}
